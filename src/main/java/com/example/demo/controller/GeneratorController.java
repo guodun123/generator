@@ -37,9 +37,9 @@ public class GeneratorController {
 	}
 
 	@RequestMapping("/batchCode")
-	public void batchCode(HttpServletRequest request, HttpServletResponse response, String tables) throws IOException {
-		String[] tableNames = new String[] {};
-		tableNames = JSON.parseArray(tables).toArray(tableNames);
+	public void batchCode(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		//自定义表名
+		String[] tableNames = new String[] {"表1","表2","表3","表4"};
 		byte[] data = generatorService.generatorCode(tableNames);
 		response.reset();
 		response.setHeader("Content-Disposition", "attachment; filename=\"bootdo.zip\"");
