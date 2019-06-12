@@ -34,7 +34,7 @@ public interface ${className}Service {
     /**
      * 查找${className}单头，不分页
      *
-     * @param ${className}Filter
+     * @param filter
      * @return
      */
     List<${className}> query${className}ByFilter(${className}Filter filter);
