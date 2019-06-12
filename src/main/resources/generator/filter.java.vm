@@ -7,7 +7,7 @@ import com.daxia.framework.common.filter.WhBaseQueryFilter;
  * @author ${author}
  * @date ${datetime}
  */
-public class ${className} extends WhBaseQueryFilter{
+public class ${className}Filter extends WhBaseQueryFilter{
 
 
 #foreach ($column in $columns)
