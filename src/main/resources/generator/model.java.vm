@@ -3,6 +3,9 @@ package ${package}.entity;
 import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.Where;
+import org.hibernate.annotations.GenericGenerator;
 
 import com.daxia.framework.common.entity.WhBaseEntity;
 

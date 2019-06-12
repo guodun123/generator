@@ -1,8 +1,5 @@
 package ${package}.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import java.util.*;
 
 import org.jboss.seam.annotations.In;
@@ -26,8 +23,7 @@ public class ${className}ServiceImpl implements ${className}Service {
 
     @Override
     @Transactional
-    public void saveOrUpdate(${className} ${classname}) {
-        return ${classname}DAO.saveOrUpdate(${classname});
+    public void saveOrUpdate(${className} ${classname}) { ${classname}DAO.saveOrUpdate(${classname});
     }
 
     @Override

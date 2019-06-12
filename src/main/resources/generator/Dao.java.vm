@@ -1,6 +1,6 @@
 package ${package}.dao;
 
-import ${package}.entity.${className}DO;
+import ${package}.entity.${className};
 
 import com.daxia.framework.common.dao.HibernateBaseDAO;
 import org.jboss.seam.annotations.Name;
@@ -9,6 +9,6 @@ import org.jboss.seam.annotations.Name;
  * @author ${author}
  * @date ${datetime}
  */
-@Name("${package}.${classname}DAO")
-public class ${className}DAO  extends HibernateBaseDAO<${className},Long> {
+@Name("${package}.${classname}Dao")
+public class ${className}Dao  extends HibernateBaseDAO<${className},Long> {
 }

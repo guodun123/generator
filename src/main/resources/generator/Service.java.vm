@@ -15,9 +15,9 @@ public interface ${className}Service {
     /**
      * 保存或更新${className}
      *
-     * @param ${className}
+     * @param ${classname}
      */
-    void saveUpdate(${className} ${classname});
+    void saveOrUpdate(${className} ${classname});
 
     /**
      * 根据filter分页取得${className}
